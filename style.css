@@ -1,16 +1,26 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    color: #333;
     background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
+    background: #333;
     color: #fff;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    margin-top: 1rem;
 }
 
 header nav a {
@@ -19,25 +29,12 @@ header nav a {
     text-decoration: none;
 }
 
+header nav a:hover {
+    text-decoration: underline;
+}
+
 section {
     padding: 2rem;
-    margin: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-}
-
-h2 {
-    color: #333;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 /* Skills Section Styles */
@@ -60,7 +57,7 @@ footer {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
     gap: 1rem; /* Space between items */
 }
 
@@ -69,4 +66,5 @@ footer {
     padding: 0.5rem;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word; /* Ensures long words break properly */
 }
