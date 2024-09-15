@@ -1,26 +1,16 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
     background-color: #f4f4f4;
 }
 
 header {
-    background: #333;
+    background-color: #333;
     color: #fff;
-    padding: 1rem 0;
+    padding: 1rem;
     text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-header nav {
-    margin-top: 1rem;
 }
 
 header nav a {
@@ -29,58 +19,25 @@ header nav a {
     text-decoration: none;
 }
 
-header nav a:hover {
-    text-decoration: underline;
-}
-
 section {
     padding: 2rem;
-}
-
-/* About Section Styles */
-#about {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem;
+    margin: 1rem;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Experience Section Styles */
-#experience {
-    max-width: 900px;
-    margin: 0 auto;
+h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
     padding: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#experience h2 {
-    margin-bottom: 1rem;
-}
-
-#experience ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#experience ul li {
-    font-weight: bold;
-}
-
-#experience ul p {
-    margin: 0.5rem 0;
-}
-
-#experience ul ul {
-    margin-left: 1rem;
-}
-
-#experience hr {
-    margin: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 /* Skills Section Styles */
@@ -103,7 +60,7 @@ section {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Fixed two columns */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
     gap: 1rem; /* Space between items */
 }
 
@@ -112,92 +69,4 @@ section {
     padding: 0.5rem;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    word-wrap: break-word; /* Ensures long words break properly */
-}
-
-/* Projects Section Styles */
-#projects {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#projects h2 {
-    margin-bottom: 1rem;
-}
-
-#projects .project {
-    margin-bottom: 1.5rem;
-}
-
-#projects .project h3 {
-    margin: 0;
-}
-
-#projects .project ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#projects .project ul li {
-    margin-bottom: 0.5rem;
-}
-
-/* Information and Certificaties Section Styles */
-#Information_and_certificaties {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#Information_and_certificaties h2 {
-    margin-bottom: 1rem;
-}
-
-#Information_and_certificaties ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#Information_and_certificaties ul li {
-    margin-bottom: 0.5rem;
-}
-
-#Information_and_certificaties ul li a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-#Information_and_certificaties ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Contact Section Styles */
-#contact {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#contact p {
-    margin: 0.5rem 0;
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
 }
