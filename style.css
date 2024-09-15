@@ -39,3 +39,34 @@ footer {
     width: 100%;
     bottom: 0;
 }
+/* Skills Section Styles */
+#skills {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 1rem; /* Space between items */
+}
+
+#skills li {
+    background: #e2e2e2;
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word; /* Ensures long words break properly */
+}
